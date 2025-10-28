@@ -1,0 +1,15 @@
+:root{--bg:#f3f6fb;--card:#ffffff;}
+body{font-family:Inter,system-ui,sans-serif;margin:0;background:var(--bg);}
+.app-root{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:36px}
+.panel{width:1000px;background:var(--card);border-radius:12px;box-shadow:0 10px 30px rgba(20,20,40,0.06);padding:20px}
+.title{font-size:20px;margin-bottom:12px}
+.controls-row{display:flex;gap:16px}
+.json-input{width:420px;min-height:260px;resize:vertical;padding:12px;border-radius:8px;border:1px solid #e6e9ef;font-family:monospace}
+.right-col{flex:1;display:flex;flex-direction:column;gap:10px}
+.search-row{display:flex;gap:8px}
+.search-input{flex:1;padding:8px 10px;border-radius:6px;border:1px solid #e6e9ef}
+.btn{padding:8px 12px;border-radius:8px;border:none;cursor:pointer;background:#e6eef9}
+.btn.primary{background:#2d8cff;color:white}
+.error{color:#d63031}
+.info{color:#0984e3}
+.flow-area{width:100%;height:520px;margin-top:16px;border-radius:8px;overflow:hidden;border:1px solid #eef2f7}
